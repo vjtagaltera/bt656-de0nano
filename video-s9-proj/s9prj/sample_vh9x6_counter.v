@@ -4,16 +4,17 @@ module sample_vh9x6_counter(rsted, clk1, clk2, vd, hd, pixels);
 	output vd, hd, pixels;
 	/* 
 		clk1 is 1/4 period ahead of clk2. everything sync to rising-edge of clk2, 
-		except HD sync to rising-edge of clk1. a line will be linelen+1 clock long, 
-		including a HD-rising at clk1-rising-edge of 1'st clock (base 0), 
-		and HD falling at clk2 linelen'th clock. in the end, there is an extra 
-		trailing 0x3ff pixcnt.
+		except HD sync to rising-edge of clk1. a line will be linelen clock long. 
+		the HD-rising is at 1/4 clock before the fist pixel data. and the HD-falling 
+		is 1/4 clock before the last pixel trailing edge. 
+		before the first pixel in a line, it needs about 3 or 2 more cycles to 
+		form the SAV sync code, plus 4 cycles for the sync code. same for the EAV code. 
+		for frame/field sync, it requres the same amount of cycles to form the code. 
 	 */
 	
 	reg rstd_state, rstd_last; // used to detect a rstd falling-edge
 	reg vd, hd;
 	reg [7:0] pixels;	// pixel value
-	reg [7:0] pixels_lag;	// pixel value
 	reg [29:0] counts;	// pixel count in a frame
 	reg [0:0]  fieldcnt;
 	reg [29:0] linecnt;
@@ -44,13 +45,14 @@ module sample_vh9x6_counter(rsted, clk1, clk2, vd, hd, pixels);
 		fvh_fvh = 3'b0;
 	end
 	
-	parameter linelen  = 8; //1280. 9 pixels per line
-	parameter linehead = 7; //20.   3 pixels for line sync at the beginning
-	parameter linetail = 7; //660.  3 pixels for line sync at the end
+	// current value;   small frame testing;   DC value; small frame DC value
+	parameter linelen  = 1280; //8; //1280. 9 pixels per line
+	parameter linehead = 140;  //7; //20.   3 pixels for line sync at the beginning
+	parameter linetail = 140;  //7; //660.  3 pixels for line sync at the end
 	parameter linetotal = linehead + linelen + linetail;
-	parameter vlen  = 6; //240.    6 lines per frame
-	parameter vhead = 3; //20.     2 lines for vertical sync at the top
-	parameter vtail = 3; //249100. 2 lines for vertical sync at the end
+	parameter vlen  = 243;  //6; //240.    6 lines per frame
+	parameter vhead = 10;   //3; //20.     2 lines for vertical sync at the top
+	parameter vtail = 10;   //3; //249100. 2 lines for vertical sync at the end
 	parameter vtotal = vhead + vlen + vtail;
 	parameter cntsmax = 30'h3fffffff;
 	
@@ -104,15 +106,12 @@ module sample_vh9x6_counter(rsted, clk1, clk2, vd, hd, pixels);
 			end
 
 			// reset count
-			if ( linestart_detected && fieldstart_detected ) 
+			if ( linestart_detected && fieldstart_detected ) // last clock in a frame
 				counts <= 1'b1;
 			else
 				counts <= counts + 1;
 				
-			pixels_lag <= pixels;	// pixel value, latched to be probed
-
-
-			if ( pixcnt >= linehead && pixcnt < (linehead + linelen -1) ) begin
+			if ( pixcnt >= linehead-1 && pixcnt < (linehead + linelen -1) ) begin
 				if ( counts[7:0] == 8'hff ) begin
 					pixels[7:0] <= 8'hfe;
 				end else if ( counts[7:0] == 8'b0 ) begin
@@ -134,7 +133,7 @@ module sample_vh9x6_counter(rsted, clk1, clk2, vd, hd, pixels);
 					end else if (pixels != 8'h80) begin
 						pixels <= 8'h80;
 					end else begin
-						pixels <= 8'h10;
+						pixels <= 8'h30; //fixme: should be 8'h10;
 					end
 				end
 				fvh_h <= 1'b0;
@@ -151,7 +150,7 @@ module sample_vh9x6_counter(rsted, clk1, clk2, vd, hd, pixels);
 					end else if (pixels != 8'h80) begin
 						pixels <= 8'h80;
 					end else begin
-						pixels <= 8'h10;
+						pixels <= 8'h30; //fixme: should be 8'h10;
 					end
 				end
 			end

@@ -54,7 +54,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -16 408 152 424)
+	(rect 40 416 208 432)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "KEY[0]" (rect 5 0 40 12)(font "Arial" ))
 	(pt 168 8)
@@ -70,7 +70,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -48 480 184 496)
+	(rect 16 480 248 496)
 	(text "INPUT" (rect 189 0 217 10)(font "Arial" (font_size 6)))
 	(text "JP2_40_GPIO_133_INPUT" (rect 5 0 137 12)(font "Arial" ))
 	(pt 232 8)
@@ -86,7 +86,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 504 184 520)
+	(rect 24 504 248 520)
 	(text "INPUT" (rect 181 0 209 10)(font "Arial" (font_size 6)))
 	(text "JP2_38_GPIO_131_INPUT" (rect 5 0 131 17)(font "Intel Clear" ))
 	(pt 224 8)
@@ -102,7 +102,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 528 184 544)
+	(rect 24 528 248 544)
 	(text "INPUT" (rect 181 0 209 10)(font "Arial" (font_size 6)))
 	(text "JP2_36_GPIO_129_INPUT" (rect 5 0 131 17)(font "Intel Clear" ))
 	(pt 224 8)
@@ -118,7 +118,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 552 184 568)
+	(rect 24 552 248 568)
 	(text "INPUT" (rect 181 0 209 10)(font "Arial" (font_size 6)))
 	(text "JP2_34_GPIO_127_INPUT" (rect 5 0 131 17)(font "Intel Clear" ))
 	(pt 224 8)
@@ -134,7 +134,7 @@ agreement for further details.
 )
 (pin
 	(input)
-	(rect -40 576 184 592)
+	(rect 24 576 248 592)
 	(text "INPUT" (rect 181 0 209 10)(font "Arial" (font_size 6)))
 	(text "JP2_32_GPIO_125_INPUT" (rect 5 0 131 17)(font "Intel Clear" ))
 	(pt 224 8)
@@ -310,7 +310,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1088 833 1104)
+	(rect 616 1176 833 1192)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_32_GPIO_025_OUT" (rect 90 0 211 12)(font "Arial" ))
 	(pt 0 8)
@@ -326,7 +326,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1112 830 1128)
+	(rect 616 1208 830 1224)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_34_GPIO_027_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -342,7 +342,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1136 830 1152)
+	(rect 616 1232 830 1248)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_36_GPIO_029_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -358,23 +358,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1160 830 1176)
-	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
-	(text "JP1_38_GPIO_031_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 0 8)(pt 52 8))
-		(line (pt 52 4)(pt 78 4))
-		(line (pt 52 12)(pt 78 12))
-		(line (pt 52 12)(pt 52 4))
-		(line (pt 78 4)(pt 82 8))
-		(line (pt 82 8)(pt 78 12))
-		(line (pt 78 12)(pt 82 8))
-	)
-)
-(pin
-	(output)
-	(rect 616 1184 830 1200)
+	(rect 616 1264 830 1280)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_40_GPIO_033_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -390,7 +374,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 944 830 960)
+	(rect 616 1000 830 1016)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_18_GPIO_013_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -406,7 +390,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 968 833 984)
+	(rect 616 1032 833 1048)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_20_GPIO_015_OUT" (rect 90 0 211 12)(font "Arial" ))
 	(pt 0 8)
@@ -422,7 +406,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 992 830 1008)
+	(rect 616 1056 830 1072)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_22_GPIO_017_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -438,7 +422,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1016 830 1032)
+	(rect 616 1080 830 1096)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_24_GPIO_019_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -454,7 +438,7 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1040 830 1056)
+	(rect 616 1112 830 1128)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_26_GPIO_021_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
@@ -470,9 +454,41 @@ agreement for further details.
 )
 (pin
 	(output)
-	(rect 616 1064 830 1080)
+	(rect 616 1136 830 1152)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "JP1_28_GPIO_023_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 616 952 824 968)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "JP1_14_GPIO_09_OUT" (rect 90 0 202 17)(font "Intel Clear" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
+(pin
+	(output)
+	(rect 616 976 830 992)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "JP1_16_GPIO_011_OUT" (rect 90 0 208 17)(font "Intel Clear" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -621,7 +637,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 400 472 448 504)
+	(rect 440 456 488 488)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst4" (rect 3 21 25 38)(font "Intel Clear" ))
 	(port
@@ -646,7 +662,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 344 1096 408 1144)
+	(rect 344 1176 408 1224)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst6" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -678,7 +694,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 344 1160 408 1208)
+	(rect 344 1232 408 1280)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst9" (rect 3 37 25 54)(font "Intel Clear" ))
 	(port
@@ -710,7 +726,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 144 944 192 976)
+	(rect 144 976 192 1008)
 	(text "NOT" (rect 1 0 21 10)(font "Arial" (font_size 6)))
 	(text "inst14" (rect 3 21 31 38)(font "Intel Clear" ))
 	(port
@@ -735,7 +751,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 136 1016 200 1096)
+	(rect 136 1056 200 1136)
 	(text "DFF" (rect 1 0 19 10)(font "Arial" (font_size 6)))
 	(text "inst10" (rect 3 68 31 85)(font "Intel Clear" ))
 	(port
@@ -785,7 +801,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 224 1008 288 1056)
+	(rect 224 1048 288 1096)
 	(text "AND2" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "inst11" (rect 3 37 31 54)(font "Intel Clear" ))
 	(port
@@ -817,7 +833,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 88 1008 120 1024)
+	(rect 88 1048 120 1064)
 	(text "VCC" (rect 7 0 27 10)(font "Arial" (font_size 6)))
 	(text "inst12" (rect 3 5 31 22)(font "Intel Clear" )(invisible))
 	(port
@@ -832,7 +848,7 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 808 736 976 880)
+	(rect 912 728 1080 872)
 	(text "sample_backpressure" (rect 5 0 112 12)(font "Arial" ))
 	(text "inst20" (rect 8 128 36 145)(font "Intel Clear" ))
 	(port
@@ -902,7 +918,7 @@ agreement for further details.
 	(drawing
 		(rectangle (rect 16 16 152 128))
 	)
-	(annotation_block (parameter)(rect 976 656 1147 732))
+	(annotation_block (parameter)(rect 1080 648 1251 724))
 )
 (symbol
 	(rect 288 0 528 184)
@@ -942,15 +958,15 @@ agreement for further details.
 		(text "Ph (dg)" (rect 98 93 133 105)(font "Arial" ))
 		(text "DC (%)" (rect 132 93 168 105)(font "Arial" ))
 		(text "c0" (rect 54 107 65 119)(font "Arial" ))
-		(text "8/5" (rect 77 107 92 119)(font "Arial" ))
+		(text "1/5" (rect 77 107 92 119)(font "Arial" ))
 		(text "0.00" (rect 104 107 125 119)(font "Arial" ))
 		(text "50.00" (rect 136 107 163 119)(font "Arial" ))
 		(text "c1" (rect 54 121 65 133)(font "Arial" ))
-		(text "1/5" (rect 77 121 92 133)(font "Arial" ))
+		(text "1/20" (rect 74 121 95 133)(font "Arial" ))
 		(text "0.00" (rect 104 121 125 133)(font "Arial" ))
 		(text "50.00" (rect 136 121 163 133)(font "Arial" ))
 		(text "c2" (rect 54 135 65 147)(font "Arial" ))
-		(text "1/5" (rect 77 135 92 147)(font "Arial" ))
+		(text "1/20" (rect 74 135 95 147)(font "Arial" ))
 		(text "90.00" (rect 102 135 129 147)(font "Arial" ))
 		(text "50.00" (rect 136 135 163 147)(font "Arial" ))
 		(line (pt 0 0)(pt 241 0))
@@ -975,6 +991,102 @@ agreement for further details.
 		(line (pt 239 80)(pt 207 80))
 		(line (pt 239 96)(pt 207 96))
 	)
+)
+(symbol
+	(rect 256 856 416 968)
+	(text "sample_vh9x6_counter" (rect 5 0 119 12)(font "Arial" ))
+	(text "inst13" (rect 8 96 36 113)(font "Intel Clear" ))
+	(port
+		(pt 0 32)
+		(input)
+		(text "rsted" (rect 0 0 24 12)(font "Arial" ))
+		(text "rsted" (rect 21 27 45 39)(font "Arial" ))
+		(line (pt 0 32)(pt 16 32))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "clk1" (rect 0 0 20 12)(font "Arial" ))
+		(text "clk1" (rect 21 43 41 55)(font "Arial" ))
+		(line (pt 0 48)(pt 16 48))
+	)
+	(port
+		(pt 0 64)
+		(input)
+		(text "clk2" (rect 0 0 20 12)(font "Arial" ))
+		(text "clk2" (rect 21 59 41 71)(font "Arial" ))
+		(line (pt 0 64)(pt 16 64))
+	)
+	(port
+		(pt 160 32)
+		(output)
+		(text "vd" (rect 0 0 12 12)(font "Arial" ))
+		(text "vd" (rect 129 27 141 39)(font "Arial" ))
+		(line (pt 160 32)(pt 144 32))
+	)
+	(port
+		(pt 160 48)
+		(output)
+		(text "hd" (rect 0 0 11 12)(font "Arial" ))
+		(text "hd" (rect 130 43 141 55)(font "Arial" ))
+		(line (pt 160 48)(pt 144 48))
+	)
+	(port
+		(pt 160 64)
+		(output)
+		(text "pixels[7..0]" (rect 0 0 54 12)(font "Arial" ))
+		(text "pixels[7..0]" (rect 94 59 148 71)(font "Arial" ))
+		(line (pt 160 64)(pt 144 64)(line_width 3))
+	)
+	(parameter
+		"linelen"
+		"1280"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"linehead"
+		"140"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"linetail"
+		"140"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"linetotal"
+		""
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"vlen"
+		"243"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"vhead"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"vtail"
+		"10"
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"vtotal"
+		""
+		""
+		(type "PARAMETER_SIGNED_DEC")	)
+	(parameter
+		"cntsmax"
+		"111111111111111111111111111111"
+		""
+		(type "PARAMETER_UNSIGNED_BIN")	)
+	(drawing
+		(rectangle (rect 16 16 144 96))
+	)
+	(annotation_block (parameter)(rect 416 664 776 856))
 )
 (connector
 	(text "clock48" (rect 138 248 172 265)(font "Intel Clear" (font_size 6)))
@@ -1041,10 +1153,6 @@ agreement for further details.
 	(pt 496 512)
 )
 (connector
-	(pt 152 416)
-	(pt 312 416)
-)
-(connector
 	(text "counters_main[22]" (rect 200 384 283 401)(font "Intel Clear" (font_size 6)))
 	(pt 200 400)
 	(pt 312 400)
@@ -1055,15 +1163,6 @@ agreement for further details.
 	(pt 616 408)
 )
 (connector
-	(pt 448 488)
-	(pt 616 488)
-)
-(connector
-	(text "clock48" (rect 314 472 348 489)(font "Intel Clear" (font_size 6)))
-	(pt 304 488)
-	(pt 400 488)
-)
-(connector
 	(pt 576 560)
 	(pt 616 560)
 )
@@ -1072,51 +1171,6 @@ agreement for further details.
 	(pt 416 920)
 	(pt 544 920)
 	(bus)
-)
-(connector
-	(text "DATA_OUT[0]" (rect 474 1152 536 1169)(font "Intel Clear" (font_size 6)))
-	(pt 616 1168)
-	(pt 464 1168)
-)
-(connector
-	(text "HD_OUT" (rect 474 1080 512 1097)(font "Intel Clear" (font_size 6)))
-	(pt 616 1096)
-	(pt 464 1096)
-)
-(connector
-	(text "VD_OUT" (rect 474 1176 511 1193)(font "Intel Clear" (font_size 6)))
-	(pt 616 1192)
-	(pt 464 1192)
-)
-(connector
-	(text "DATA_OUT[4]" (rect 474 1056 536 1073)(font "Intel Clear" (font_size 6)))
-	(pt 616 1072)
-	(pt 464 1072)
-)
-(connector
-	(text "DATA_OUT[5]" (rect 474 1032 536 1049)(font "Intel Clear" (font_size 6)))
-	(pt 616 1048)
-	(pt 464 1048)
-)
-(connector
-	(text "DATA_OUT[6]" (rect 474 1008 536 1025)(font "Intel Clear" (font_size 6)))
-	(pt 616 1024)
-	(pt 464 1024)
-)
-(connector
-	(text "DATA_OUT[7]" (rect 474 984 536 1001)(font "Intel Clear" (font_size 6)))
-	(pt 616 1000)
-	(pt 464 1000)
-)
-(connector
-	(text "DATA_OUT[2]" (rect 474 960 536 977)(font "Intel Clear" (font_size 6)))
-	(pt 616 976)
-	(pt 464 976)
-)
-(connector
-	(text "DATA_OUT[1]" (rect 474 936 536 953)(font "Intel Clear" (font_size 6)))
-	(pt 616 952)
-	(pt 464 952)
 )
 (connector
 	(pt 496 512)
@@ -1191,153 +1245,9 @@ agreement for further details.
 	(pt 72 920)
 )
 (connector
-	(text "earlyabort" (rect 194 472 237 489)(font "Intel Clear" (font_size 6)))
-	(pt 184 488)
-	(pt 264 488)
-)
-(connector
-	(pt 616 1144)
-	(pt 424 1144)
-)
-(connector
-	(pt 424 1184)
-	(pt 408 1184)
-)
-(connector
-	(pt 424 1144)
-	(pt 424 1184)
-)
-(connector
-	(text "clkc1" (rect 266 1176 288 1193)(font "Intel Clear" (font_size 6)))
-	(pt 256 1192)
-	(pt 344 1192)
-)
-(connector
-	(pt 616 1120)
-	(pt 408 1120)
-)
-(connector
-	(text "clkc2" (rect 266 1112 288 1129)(font "Intel Clear" (font_size 6)))
-	(pt 256 1128)
-	(pt 344 1128)
-)
-(connector
-	(text "VD_OUT" (rect 74 944 115 961)(font "Intel Clear" ))
-	(pt 64 960)
-	(pt 144 960)
-)
-(connector
-	(pt 192 960)
-	(pt 240 960)
-)
-(connector
-	(pt 224 1176)
-	(pt 224 1112)
-)
-(connector
-	(text "reseted" (rect 56 1160 87 1177)(font "Intel Clear" (font_size 6)))
-	(pt 56 1176)
-	(pt 224 1176)
-)
-(connector
-	(pt 224 1176)
-	(pt 344 1176)
-)
-(connector
-	(pt 224 1112)
-	(pt 344 1112)
-)
-(connector
 	(text "VD_OUT" (rect 426 872 463 889)(font "Intel Clear" (font_size 6)))
 	(pt 544 888)
 	(pt 416 888)
-)
-(connector
-	(text "earlyabort" (rect 66 1104 115 1121)(font "Intel Clear" ))
-	(pt 56 1120)
-	(pt 168 1120)
-)
-(connector
-	(pt 72 1056)
-	(pt 136 1056)
-)
-(connector
-	(pt 168 1088)
-	(pt 168 1096)
-)
-(connector
-	(pt 168 1096)
-	(pt 168 1120)
-)
-(connector
-	(pt 104 1040)
-	(pt 104 1024)
-)
-(connector
-	(pt 128 1008)
-	(pt 168 1008)
-)
-(connector
-	(pt 168 1016)
-	(pt 168 1008)
-)
-(connector
-	(pt 128 1040)
-	(pt 128 1008)
-)
-(connector
-	(pt 104 1040)
-	(pt 128 1040)
-)
-(connector
-	(pt 128 1040)
-	(pt 136 1040)
-)
-(connector
-	(pt 72 1056)
-	(pt 72 1000)
-)
-(connector
-	(pt 72 1000)
-	(pt 216 1000)
-)
-(connector
-	(pt 288 1032)
-	(pt 296 1032)
-)
-(connector
-	(pt 200 1040)
-	(pt 224 1040)
-)
-(connector
-	(pt 216 1024)
-	(pt 224 1024)
-)
-(connector
-	(pt 216 1000)
-	(pt 216 1024)
-)
-(connector
-	(pt 240 960)
-	(pt 240 992)
-)
-(connector
-	(pt 240 992)
-	(pt 312 992)
-)
-(connector
-	(pt 312 992)
-	(pt 312 1016)
-)
-(connector
-	(text "VD_OUT_NEG" (rect 338 1000 405 1017)(font "Intel Clear" ))
-	(pt 312 1016)
-	(pt 424 1016)
-)
-(connector
-	(text "HD_OUT" (rect 450 888 488 905)(font "Intel Clear" (font_size 6)))
-	(pt 416 904)
-	(pt 712 904)
 )
 (connector
 	(pt 576 560)
@@ -1348,61 +1258,8 @@ agreement for further details.
 	(pt 576 640)
 )
 (connector
-	(pt 576 640)
-	(pt 656 640)
-)
-(connector
 	(pt 600 584)
 	(pt 600 616)
-)
-(connector
-	(text "HD_OUT_GATED" (rect 882 600 956 617)(font "Intel Clear" (font_size 6)))
-	(pt 1168 616)
-	(pt 600 616)
-)
-(connector
-	(text "earlyabort" (rect 738 816 781 833)(font "Intel Clear" (font_size 6)))
-	(pt 728 832)
-	(pt 808 832)
-)
-(connector
-	(pt 712 904)
-	(pt 712 816)
-)
-(connector
-	(pt 712 816)
-	(pt 808 816)
-)
-(connector
-	(pt 656 640)
-	(pt 656 800)
-)
-(connector
-	(pt 656 800)
-	(pt 808 800)
-)
-(connector
-	(text "reseted" (rect 738 752 773 769)(font "Intel Clear" ))
-	(pt 808 768)
-	(pt 728 768)
-)
-(connector
-	(text "clkc2" (rect 738 768 762 785)(font "Intel Clear" ))
-	(pt 808 784)
-	(pt 728 784)
-)
-(connector
-	(pt 1168 768)
-	(pt 976 768)
-)
-(connector
-	(pt 1168 616)
-	(pt 1168 768)
-)
-(connector
-	(text "clk2gen" (rect 986 768 1023 785)(font "Intel Clear" ))
-	(pt 976 784)
-	(pt 1088 784)
 )
 (connector
 	(pt 288 64)
@@ -1434,8 +1291,280 @@ agreement for further details.
 	(pt 544 96)
 	(pt 528 96)
 )
+(connector
+	(pt 576 640)
+	(pt 800 640)
+)
+(connector
+	(text "HD_OUT" (rect 450 888 488 905)(font "Intel Clear" (font_size 6)))
+	(pt 416 904)
+	(pt 800 904)
+)
+(connector
+	(text "earlyabort" (rect 842 808 885 825)(font "Intel Clear" (font_size 6)))
+	(pt 832 824)
+	(pt 912 824)
+)
+(connector
+	(text "reseted" (rect 842 744 877 761)(font "Intel Clear" ))
+	(pt 912 760)
+	(pt 832 760)
+)
+(connector
+	(text "clkc2" (rect 842 760 866 777)(font "Intel Clear" ))
+	(pt 912 776)
+	(pt 832 776)
+)
+(connector
+	(pt 800 640)
+	(pt 800 792)
+)
+(connector
+	(pt 800 792)
+	(pt 912 792)
+)
+(connector
+	(pt 800 904)
+	(pt 800 808)
+)
+(connector
+	(pt 800 808)
+	(pt 912 808)
+)
+(connector
+	(text "clk2gen" (rect 1090 760 1127 777)(font "Intel Clear" ))
+	(pt 1080 776)
+	(pt 1232 776)
+)
+(connector
+	(text "HD_OUT_GATED" (rect 882 600 956 617)(font "Intel Clear" (font_size 6)))
+	(pt 600 616)
+	(pt 1280 616)
+)
+(connector
+	(pt 1280 616)
+	(pt 1280 760)
+)
+(connector
+	(pt 1080 760)
+	(pt 1280 760)
+)
+(connector
+	(pt 608 488)
+	(pt 608 472)
+)
+(connector
+	(pt 616 488)
+	(pt 608 488)
+)
+(connector
+	(pt 608 472)
+	(pt 488 472)
+)
+(connector
+	(text "earlyabort" (rect 258 472 301 489)(font "Intel Clear" (font_size 6)))
+	(pt 248 488)
+	(pt 328 488)
+)
+(connector
+	(pt 240 416)
+	(pt 240 424)
+)
+(connector
+	(pt 312 416)
+	(pt 240 416)
+)
+(connector
+	(pt 208 424)
+	(pt 240 424)
+)
+(connector
+	(text "clock48" (rect 354 456 388 473)(font "Intel Clear" (font_size 6)))
+	(pt 376 472)
+	(pt 440 472)
+)
+(connector
+	(text "VD_OUT" (rect 474 1256 511 1273)(font "Intel Clear" (font_size 6)))
+	(pt 616 1272)
+	(pt 464 1272)
+)
+(connector
+	(text "reseted" (rect 56 1208 87 1225)(font "Intel Clear" (font_size 6)))
+	(pt 56 1224)
+	(pt 224 1224)
+)
+(connector
+	(pt 72 1096)
+	(pt 136 1096)
+)
+(connector
+	(text "earlyabort" (rect 66 1136 115 1153)(font "Intel Clear" ))
+	(pt 56 1152)
+	(pt 168 1152)
+)
+(connector
+	(pt 168 1128)
+	(pt 168 1136)
+)
+(connector
+	(pt 168 1136)
+	(pt 168 1152)
+)
+(connector
+	(pt 104 1080)
+	(pt 104 1064)
+)
+(connector
+	(pt 128 1048)
+	(pt 168 1048)
+)
+(connector
+	(pt 168 1056)
+	(pt 168 1048)
+)
+(connector
+	(pt 128 1080)
+	(pt 128 1048)
+)
+(connector
+	(pt 104 1080)
+	(pt 128 1080)
+)
+(connector
+	(pt 128 1080)
+	(pt 136 1080)
+)
+(connector
+	(pt 288 1072)
+	(pt 296 1072)
+)
+(connector
+	(pt 216 1064)
+	(pt 224 1064)
+)
+(connector
+	(pt 200 1080)
+	(pt 224 1080)
+)
+(connector
+	(pt 72 1032)
+	(pt 216 1032)
+)
+(connector
+	(pt 72 1096)
+	(pt 72 1032)
+)
+(connector
+	(pt 216 1064)
+	(pt 216 1032)
+)
+(connector
+	(text "VD_OUT" (rect 74 976 115 993)(font "Intel Clear" ))
+	(pt 64 992)
+	(pt 144 992)
+)
+(connector
+	(text "VD_OUT_NEG" (rect 282 976 349 993)(font "Intel Clear" ))
+	(pt 352 992)
+	(pt 192 992)
+)
+(connector
+	(text "DATA_OUT[2]" (rect 474 968 536 985)(font "Intel Clear" (font_size 6)))
+	(pt 616 984)
+	(pt 464 984)
+)
+(connector
+	(text "DATA_OUT[0]" (rect 474 944 536 961)(font "Intel Clear" (font_size 6)))
+	(pt 616 960)
+	(pt 464 960)
+)
+(connector
+	(text "DATA_OUT[1]" (rect 474 992 536 1009)(font "Intel Clear" (font_size 6)))
+	(pt 616 1008)
+	(pt 464 1008)
+)
+(connector
+	(text "DATA_OUT[6]" (rect 474 1024 536 1041)(font "Intel Clear" (font_size 6)))
+	(pt 616 1040)
+	(pt 464 1040)
+)
+(connector
+	(text "DATA_OUT[5]" (rect 474 1048 536 1065)(font "Intel Clear" (font_size 6)))
+	(pt 616 1064)
+	(pt 464 1064)
+)
+(connector
+	(text "DATA_OUT[7]" (rect 474 1072 536 1089)(font "Intel Clear" (font_size 6)))
+	(pt 616 1088)
+	(pt 464 1088)
+)
+(connector
+	(text "DATA_OUT[4]" (rect 474 1104 536 1121)(font "Intel Clear" (font_size 6)))
+	(pt 616 1120)
+	(pt 464 1120)
+)
+(connector
+	(text "DATA_OUT[3]" (rect 474 1128 536 1145)(font "Intel Clear" (font_size 6)))
+	(pt 616 1144)
+	(pt 464 1144)
+)
+(connector
+	(pt 432 1240)
+	(pt 616 1240)
+)
+(connector
+	(pt 432 1216)
+	(pt 616 1216)
+)
+(connector
+	(text "HD_OUT" (rect 474 1168 512 1185)(font "Intel Clear" (font_size 6)))
+	(pt 616 1184)
+	(pt 464 1184)
+)
+(connector
+	(text "clkc1" (rect 266 1248 288 1265)(font "Intel Clear" (font_size 6)))
+	(pt 256 1264)
+	(pt 344 1264)
+)
+(connector
+	(pt 224 1248)
+	(pt 344 1248)
+)
+(connector
+	(pt 432 1256)
+	(pt 408 1256)
+)
+(connector
+	(pt 432 1240)
+	(pt 432 1256)
+)
+(connector
+	(text "clkc2" (rect 266 1192 288 1209)(font "Intel Clear" (font_size 6)))
+	(pt 256 1208)
+	(pt 344 1208)
+)
+(connector
+	(pt 224 1192)
+	(pt 344 1192)
+)
+(connector
+	(pt 432 1200)
+	(pt 408 1200)
+)
+(connector
+	(pt 432 1216)
+	(pt 432 1200)
+)
+(connector
+	(pt 224 1192)
+	(pt 224 1224)
+)
+(connector
+	(pt 224 1224)
+	(pt 224 1248)
+)
 (junction (pt 168 656))
-(junction (pt 224 1176))
-(junction (pt 168 1096))
-(junction (pt 128 1040))
 (junction (pt 576 632))
+(junction (pt 224 1224))
+(junction (pt 168 1136))
+(junction (pt 128 1080))
